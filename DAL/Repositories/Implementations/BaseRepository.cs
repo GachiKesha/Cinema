@@ -31,8 +31,8 @@ namespace Films.DAL.Repositories.Implementations
         }
 
         public IEnumerable<T> Find(Func<T, bool> predicate,
-        int pageNumber = 0,
-        int pageSize = 10)
+            int pageNumber = 0,
+            int pageSize = 10)
         {
             return
             _set.Where(predicate)
