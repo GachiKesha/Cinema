@@ -12,8 +12,7 @@ namespace Films.DAL.Tests
         public void Create_InputAdminInstance_CalledAddMethodOfDBSetWithAdminInstance()
         {
             // Arrange
-            DbContextOptions opt = new DbContextOptionsBuilder<FilmContext>()
-            .Options;
+            DbContextOptions opt = new DbContextOptionsBuilder<FilmContext>().Options;
             var mockContext = new Mock<FilmContext>(opt);
             var mockDbSet = new Mock<DbSet<Admin>>();
             mockContext.Setup(context => context.Set<Admin>()).Returns(mockDbSet.Object);

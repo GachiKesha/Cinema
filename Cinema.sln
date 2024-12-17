@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Films", "Films", "{BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{63F1B248-C58A-4628-B284-091B22587F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{03D570E6-BDDF-4B22-BEA7-3EC2EFCCF046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,10 @@ Global
 		{63F1B248-C58A-4628-B284-091B22587F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F1B248-C58A-4628-B284-091B22587F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F1B248-C58A-4628-B284-091B22587F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D570E6-BDDF-4B22-BEA7-3EC2EFCCF046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D570E6-BDDF-4B22-BEA7-3EC2EFCCF046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D570E6-BDDF-4B22-BEA7-3EC2EFCCF046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D570E6-BDDF-4B22-BEA7-3EC2EFCCF046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF} = {BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}
 		{63F1B248-C58A-4628-B284-091B22587F59} = {BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}
+		{03D570E6-BDDF-4B22-BEA7-3EC2EFCCF046} = {BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2B03178-BE5E-4002-AEFB-1D107EC0D14D}
