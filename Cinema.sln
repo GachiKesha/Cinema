@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Cinema\Cinema.csproj", "{595909D8-A72B-4E70-9736-F7616BDE08B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Films", "Films", "{BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF} = {BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2B03178-BE5E-4002-AEFB-1D107EC0D14D}
