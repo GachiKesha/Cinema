@@ -5,12 +5,11 @@ using Films.DAL.Repositories.Interfaces;
 namespace Films.DAL.Repositories.Implementations
 {
     public class AdminRepository
-    : BaseRepository<Admin>, IAdminRepository
+        : BaseRepository<Admin>, IAdminRepository
     {
         internal AdminRepository(FilmContext context)
         : base(context)
         {
         }
     }
-
 }
