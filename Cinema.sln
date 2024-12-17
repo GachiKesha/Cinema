@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Cinema\Cinema.csproj", "{595909D8-A72B-4E70-9736-F7616BDE08B3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Films", "Films", "{BF50063E-CC2A-45AF-86F0-767FAAF5D8BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{63F1B248-C58A-4628-B284-091B22587F59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{63F1B248-C58A-4628-B284-091B22587F59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{595909D8-A72B-4E70-9736-F7616BDE08B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0F9651-EB2A-4A89-9421-32C295AAB7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
