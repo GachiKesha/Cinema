@@ -23,7 +23,7 @@ namespace Films.BLL.Services.Implementations
             _database = unitOfWork;
         }
         /// <exception cref="MethodAccessException"></exception>
-        public IEnumerable<FilmDTO> GetFilmsByTitle(string title, int pageNumber, int pageSize)
+        public IEnumerable<FilmDTO> GetFilmsByTitle(string title, int pageNumber, int pageSize = 10)
         {
             var user = SecurityContext.GetUser();
             if (user.GetType() != typeof(CCL.Security.Identity.Admin))
