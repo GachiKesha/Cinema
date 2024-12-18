@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "nY0o8cbHKN0QAHO7gOzVZXBqE6uknDwj3zBjnRTDsxz3yY1kkjllYTJoHyv/TeD8Y94hvLuYrn8akksOxscPEw==",
+  "dgSpecHash": "umQ39HNBYjFbaxQGM5U+bE6LAFRrEq2VyGCnvMTiJaVqLa1De9e46ZVQpcI2Sn6j+b+HDiA8nbsg2G4aMNUNFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vlad\\Desktop\\Cinema\\DAL.Tests\\DAL.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
-    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.17\\microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",

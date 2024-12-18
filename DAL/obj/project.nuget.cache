@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TRWQ6z52Jx1xLmmX0EOedCq7BKHy4Y9CMPaIsRyO7KX6dZ/amGzuPUtiMkblCG5veJrgIPSB1YBTZjnFni4LsA==",
+  "dgSpecHash": "ZKpjqIMy0iMCc39z+CYbMJOcmxiB/JmQahSodDEPndpMPrO13uE2ShadBkEfFzEPzmvExHKUnnZxmQBSx96u7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vlad\\Desktop\\Cinema\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.17\\microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",
